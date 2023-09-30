@@ -1,0 +1,48 @@
+body {
+    background-color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-weight: 500;
+  text-align: center;
+  padding: 16px;
+  text-transform: uppercase;
+}
+
+.cards_container{
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.card{
+  background-color: coral;
+  color: white;
+  box-sizing: border-box;
+  height: 350px;
+  width: fit-content;
+}
+
+.card p{
+  text-align: center;
+  color: white;
+}
+
+.tamanho{
+  display: block;
+  height: 80%;
+}
+
+main{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 800px){
+  
+  .cards_container{
+  flex-direction: column;
+  align-items: center;
+ }
+}
